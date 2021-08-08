@@ -1,3 +1,9 @@
+# Initially, a wavfile is loaded in and converted to the frequency domain via the fourier transform.
+# The data is normalised and unmirrored to simplify the process of amplifying the harmonics.
+# A lowpass filter is implemented to remove DC noise.
+# The harmonics are given by integer multiples of the fundamental frequency. All harmonic frequencies from the range of 100-5000 Hz are multiplied.
+# Finally, the new and improved audio sample can be created and saved!
+
 print('BEGINNING OF SCRIPT')
 
 from scipy.io import wavfile #import WAV file
