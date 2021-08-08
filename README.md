@@ -1,3 +1,4 @@
+# This section contains scripts written in MATLAB highlighting some of the key work involved in my Final Year Project at the Univeristy of Glasgow.
 # GUI_FYP contains a very lengthy MATLAB script (~1000 lines), and would take too long to explain the full inner workings.
 # I have briefly summarised the key points below.
 # Clicking 'Run' opens a GUI prompting the user to load in data obtained from tissue samples using an ultrasonic transducer (Verasonics).
